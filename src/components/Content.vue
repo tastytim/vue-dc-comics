@@ -1,6 +1,6 @@
 <template>
-  <div>
-      <div class=""></div>
+  <div class="bg-black">
+      <div class="content">Content goes here</div>
   </div>
 </template>
 

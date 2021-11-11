@@ -6,7 +6,7 @@
       </div>
       <div class="nav">
         <ul class="nav-ul">
-          <li class="navbar-item"  v-for="(item, index) in navBarItems" :class="index===i ? 'active':''"  :key="index" ><a :href="item.href">{{item.name}}</a> </li>
+          <li class="navbar-item"  @click="clickActive(index)" v-for="(item, index) in navBarItems" :class="index===currentActive ? 'active':''"  :key="index" ><a :href="item.href">{{item.name}}</a> </li>
         </ul>
       </div>
     </div>
@@ -61,6 +61,10 @@ export default {
         },
       ],
       currentActive: 0,
+      clickActive(i){
+          this.currentActive = i;
+          
+      },
     };
   },
 };
