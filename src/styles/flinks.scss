@@ -2,11 +2,12 @@
   background-image: url("~@/assets/footer-bg.jpg");
   background-position: center;
   background-size: cover;
-  padding: 15px 0;
+ 
   .flinks {
     margin: 0 auto;
     width: 1200px;
     display: flex;
+    
   }
   h4 {
     color: white;
@@ -16,6 +17,7 @@
   .col-50 {
     display: flex;
     width: calc(100% / 2);
+    padding: 15px 0;
   }
   .dc-image-col{
     background-image: url("~@/assets/dc-logo-bg.png");
