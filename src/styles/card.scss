@@ -4,11 +4,11 @@
   width: calc(100% / 6 - 10px);
   height: 200px;
   .card-img{
-      height: calc(100% - 35px);
+      height: 80%;
   }
   .card-text {
     font-weight: bold;
-    font-size: smaller;
+    font-size: 10px;
     padding: 5px 0;
   }
 }
