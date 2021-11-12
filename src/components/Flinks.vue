@@ -1,6 +1,7 @@
 <template>
   <div class="bg-flinks-img">
-      <div class="flinks"><div class="col-50">
+      <div class="flinks">
+        <div class="col-50">
           <div class="col-list">
               <h4>DC COMICS</h4>
               <ul>

@@ -44,6 +44,7 @@ export default {
 @import "src/styles/social.scss";
 @import "src/styles/flinks.scss";
 @import "src/styles/jumbotron.scss";
+@import "src/styles/card.scss";
 
 
 html, body {
