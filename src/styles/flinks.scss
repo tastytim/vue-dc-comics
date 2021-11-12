@@ -1,0 +1,41 @@
+.bg-flinks-img {
+  background-image: url("~@/assets/footer-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 15px 0;
+  .flinks {
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+  }
+  h4 {
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .col-50 {
+    display: flex;
+    width: calc(100% / 2);
+  }
+  .dc-image-col{
+    background-image: url("~@/assets/dc-logo-bg.png");
+    background-position: center;
+    background-size: cover;
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+    padding-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    li {
+      padding: 1px 0;
+      a {
+        text-decoration: none;
+        color: gainsboro;
+        font-size: 11px;
+      }
+    }
+  }
+}

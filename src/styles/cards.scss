@@ -1,0 +1,29 @@
+.bg-royal{
+    background-color: royalblue;
+}
+
+.cards{
+  width: 1200px;
+  height: 150px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    width: calc(100% / 5);
+    color : white;
+    padding: 0 10px;
+    .card-img{
+        padding: 0 15px;
+        width: 50px;
+        height: 50px;
+    }
+    span{
+        font-size: smaller;
+        font-weight: bold;
+    }
+}

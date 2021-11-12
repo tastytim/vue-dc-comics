@@ -2,9 +2,7 @@
   <div id="app">
     <Header></Header>
     <Content></Content>
-    <Footer>
-      <Cards></Cards>
-    </Footer>
+    <Footer></Footer>
   </div>
 </template>
 
@@ -12,7 +10,7 @@
 import Header from "./components/Header.vue";
 import Content from "./components/Content.vue";
 import Footer from "./components/Footer.vue";
-import Cards from "./components/Cards.vue"
+
 
 export default {
   name: "App",
@@ -20,7 +18,6 @@ export default {
     Header,
     Content,
     Footer,
-    Cards,
   },
 };
 </script>
@@ -40,6 +37,8 @@ export default {
 @import "src/styles/content.scss";
 @import "src/styles/footer.scss";
 @import "src/styles/cards.scss";
+@import "src/styles/social.scss";
+@import "src/styles/flinks.scss";
 
 
 html, body {
