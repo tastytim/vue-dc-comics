@@ -1,0 +1,14 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% / 6 - 10px);
+  height: 200px;
+  .card-img{
+      height: calc(100% - 35px);
+  }
+  .card-text {
+    font-weight: bold;
+    font-size: smaller;
+    padding: 5px 0;
+  }
+}

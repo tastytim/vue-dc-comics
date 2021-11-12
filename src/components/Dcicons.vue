@@ -1,10 +1,10 @@
 
 <template>
   <div class="bg-royal">
-    <div class="cards">
-      <div class="card"
+    <div class="dcicons">
+      <div class="dcicon"
        v-for="(item, index) in card_list" :key="index">
-       <img class="card-img" :src="item.img_pass" :alt="item.img_pass">
+       <img class="icon-img" :src="item.img_pass" :alt="item.img_pass">
        <span>{{item.text}}</span>
       </div>
     </div>

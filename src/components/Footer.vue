@@ -1,18 +1,18 @@
 <template>
 <div class="footer">
-  <Cards></Cards>
+  <Dsicons></Dsicons>
   <Flinks></Flinks>
   <Social></Social>
 </div>
 </template>
 
 <script>
-import Cards from './Cards.vue';
+import Dsicons from './Dcicons.vue';
 import Flinks from './Flinks.vue';
 import Social from './Social.vue';
 
 export default {
-  components: { Cards, Flinks, Social},
+  components: { Dsicons, Flinks, Social},
   name: "Footer",
 };
 </script>

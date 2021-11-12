@@ -40,7 +40,7 @@ export default {
 @import "src/styles/header.scss";
 @import "src/styles/content.scss";
 @import "src/styles/footer.scss";
-@import "src/styles/cards.scss";
+@import "src/styles/dsicons.scss";
 @import "src/styles/social.scss";
 @import "src/styles/flinks.scss";
 @import "src/styles/jumbotron.scss";
