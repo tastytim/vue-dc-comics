@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <Header></Header>
+    <Jumbotron></Jumbotron>
     <Content></Content>
     <Footer></Footer>
   </div>
@@ -10,14 +11,17 @@
 import Header from "./components/Header.vue";
 import Content from "./components/Content.vue";
 import Footer from "./components/Footer.vue";
+import Jumbotron from "./components/Jumbotron.vue"
 
 
 export default {
   name: "App",
   components: {
     Header,
+    Jumbotron,
     Content,
     Footer,
+    
   },
 };
 </script>
@@ -39,6 +43,7 @@ export default {
 @import "src/styles/cards.scss";
 @import "src/styles/social.scss";
 @import "src/styles/flinks.scss";
+@import "src/styles/jumbotron.scss";
 
 
 html, body {
