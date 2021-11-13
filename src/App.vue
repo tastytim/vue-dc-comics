@@ -52,6 +52,8 @@ html, body {
   padding: 0px ;
 }
 
+
+
 #app {
   font-family: "Mochiy Pop P One", sans-serif;
 }
